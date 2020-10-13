@@ -13,6 +13,6 @@ spec:
     spec:
       containers:
       - name: web
-        image: denimallel/prod-cons-web:{{version}}
+        image: denimallel/prod-cons-web:imageVersion
         ports:
         - containerPort: 80
